@@ -34,5 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo "Github Tester : ${{github_actor}}"
-          echo "Github Repo : ${{github_Repository}}"
+          echo "Github Tester : ${{ github_actor }}"
+          echo "Github Repo : ${{ github_repository }}"
+          echo "Job Status : ${{ job_status }}"
